@@ -72,3 +72,13 @@ footer {
 .return-home:hover {
   background-color: #555;
 }
+
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
