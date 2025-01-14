@@ -1,85 +1,50 @@
+/* General styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    transition: background-color 0.5s, color 0.5s;
 }
-
-header .hero {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: #fff;
-    padding: 50px 20px;
+header {
     text-align: center;
+    background: #f4f4f4;
+    padding: 20px 0;
 }
-
-header .hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.profile-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 3px solid #fff;
-    margin-bottom: 20px;
-}
-
-.social-links a {
-    margin: 0 10px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.social-links a:hover {
-    color: #ffd700;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
+header h1 {
+    font-size: 2.5rem;
     color: #333;
-    margin-bottom: 10px;
 }
-
-.project-card {
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-button#scrollTop {
+button {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
-    background: #333;
-    color: #fff;
+    background: #007bff;
+    color: white;
     border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    display: none;
+    padding: 10px 15px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+button:hover {
+    background: #0056b3;
 }
 
-button#scrollTop:hover {
-    background: #555;
+/* Smooth fade-in animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Theme styles */
+body.dark-theme {
+    background-color: #222;
+    color: #ddd;
+}
+body.dark-theme header {
+    background: #333;
 }
