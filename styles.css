@@ -155,3 +155,13 @@
           padding: 0 10px;
       }
   }
+
+
+.project-image,
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Ensures the images/videos don't overflow the container */
+    height: auto; /* Keeps the aspect ratio intact */
+}
