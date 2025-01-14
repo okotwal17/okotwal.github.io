@@ -1,50 +1,111 @@
-/*General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    transition: background-color 0.5s, color 0.5s;
-}
-header {
-    text-align: center;
-    background: #f4f4f4;
-    padding: 20px 0;
-}
-header h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-button:hover {
-    background: #0056b3;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Kotwal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="1715625211030.jpeg" alt="Om Kotwal" class="profile-img">
+            <h1 id="name-title">Om Kotwal</h1>
+            <p>Computer Science Enthusiast</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/omkotwal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/okotwal" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </header>
 
-/* Smooth fade-in animation */
-.hidden {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-.fade-in {
-    opacity: 1;
-    transform: translateY(0);
-}
+    <main>
+        <section id="education" class="section-card">
+            <h2>Education</h2>
+            <p><strong>Vernon Hills High School</strong> - GPA: 4.000 Unweighted</p>
+            <ul>
+                <li>Relevant Coursework: AP Computer Science A, AP Statistics, Data Structures and Algorithms, AP Calculus BC</li>
+                <li>Honors/Awards: ST3AM Showcase First Place in the Engineering Division, ST3AM Showcase First Place in the Entrepreneurship Division</li>
+            </ul>
+        </section>
 
-/* Theme styles */
-body.dark-theme {
-    background-color: #222;
-    color: #ddd;
-}
-body.dark-theme header {
-    background: #333;
-}
+        <section id="experience" class="section-card">
+            <h2>Job Experience</h2>
+            <div class="job">
+                <h3>Computer Science Consulting and Curriculum Development Intern</h3>
+                <p><strong>XPerience Coding LLC</strong>, Vernon Hills, Illinois | June 2024 - July 2024</p>
+                <ul>
+                    <li>Developed comprehensive STEM camp curricula for approximately 50 students, covering Web Development, Programming, and Robotics.</li>
+                    <li>Initiated outreach to local companies, resulting in a virtual tour project for Lakeview Fitness, boosting user interest by 60%.</li>
+                    <li>Managed multiple tech projects, creating detailed proposals and ensuring successful execution.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Pool Attendant/Cashier</h3>
+                <p><strong>Turtle Creek Waterpark</strong>, Vernon Hills, Illinois | May 2023 - August 2023, May 2024 - August 2024</p>
+                <ul>
+                    <li>Supervised pool activities for up to 400 guests per hour, ensuring safety and visitor satisfaction.</li>
+                    <li>Provided exceptional customer service to up to 500 patrons daily, addressing inquiries and concerns.</li>
+                    <li>Collaborated with a team to maintain a welcoming and efficient environment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="extracurricular" class="section-card">
+            <h2>Extracurricular Activities</h2>
+            <div class="activity">
+                <h3>Founder and CTO at ClassCalendar</h3>
+                <p><strong>Vernon Hills, Illinois</strong> | November 2023 - Present</p>
+                <ul>
+                    <li>Led development of a task management app with an avatar and coin system using Flutter and Dart.</li>
+                    <li>Managed front-end and back-end development, ensuring seamless user experiences.</li>
+                </ul>
+            </div>
+            <div class="activity">
+                <h3>President of Education and Board of Directors</h3>
+                <p><strong>XPerience Coding LLC</strong> | November 2023 - Present</p>
+                <ul>
+                    <li>Co-led creation of coding curriculum for K-5 students, focusing on Scratch and Python.</li>
+                    <li>Taught coding camps, introducing fundamental programming concepts to students.</li>
+                </ul>
+            </div>
+            <div class="activity">
+                <h3>Co-Coach for Disease Detectives</h3>
+                <p><strong>Vernon Hills, Illinois</strong> | October 2021 - Present</p>
+                <ul>
+                    <li>Developed a comprehensive curriculum on epidemiology for middle school students.</li>
+                    <li>Successfully coached the team to achieve 1st place in regional and 2nd place in state competitions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section-card">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical Skills:</strong> Web Development, Software Development, Debugging, Testing</li>
+                <li><strong>Programming Languages:</strong> Java, Python, HTML, CSS, JavaScript</li>
+                <li><strong>Tools and Technologies:</strong> Visual Studio Code, GitHub</li>
+                <li><strong>Soft Skills:</strong> Critical Thinking, Problem Solving, Communication</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section-card">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ClassCalendar</h3>
+                <p>Developed ClassCalendar, a task management app with avatars and coins using Flutter and Dart.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/okotwal/Algebr.ai" target="_blank" rel="noopener noreferrer">Algebr.ai</a></h3>
+                <p>An AI-powered platform for generating Algebra I and II practice tests, tailored to user preferences and performance.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Om Kotwal</p>
+    </footer>
+</body>
+</html>
