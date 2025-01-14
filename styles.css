@@ -1,84 +1,85 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+header .hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.profile img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+header .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
 }
 
 .social-links a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffd700;
 }
 
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
 section {
-  margin-bottom: 20px;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  border-bottom: 2px solid #333;
-  padding-bottom: 10px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  background: #fff;
-  margin: 5px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-.return-home {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.return-home:hover {
-  background-color: #555;
-}
-
-
-.project-image {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-    border: 2px solid #ccc;
+.project-card {
+    background: #f9f9f9;
+    padding: 15px;
     border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+button#scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button#scrollTop:hover {
+    background: #555;
+}
