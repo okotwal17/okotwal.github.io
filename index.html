@@ -5,125 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om Kotwal - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <div class="profile">
-            <img src="1715625211030.jpeg" alt="Om Kotwal">
-            <h1>Om Kotwal</h1>
-            <p>Computer Science Enthusiast</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/omkotwal/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/okotwal" target="_blank">GitHub</a>
+        <div class="hero">
+            <div class="hero-content">
+                <img src="1715625211030.jpeg" alt="Om Kotwal" class="profile-img">
+                <h1>Om Kotwal</h1>
+                <p>Computer Science Enthusiast</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/omkotwal/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/okotwal" target="_blank">GitHub</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="education">
+        <section id="education" class="fade-in">
             <h2>Education</h2>
             <p><strong>Vernon Hills High School</strong> - GPA: 4.000 Unweighted</p>
             <ul>
-                <li>Relevant Coursework:AP Computer Science A, AP Statistics, Data Structures and Algorithms, AP Calculus BC</li>
-                <li>Honors/Awards: ST3AM Showcase First Place in the Engineering Division,
-                ST3AM Showcase First Place in the Entrepreneurship Division
-</li>
+                <li>Relevant Coursework: AP Computer Science A, AP Statistics, Data Structures and Algorithms, AP Calculus BC</li>
+                <li>Honors/Awards: ST3AM Showcase First Place in the Engineering Division, Entrepreneurship Division</li>
             </ul>
         </section>
 
-        <section id="experience">
+        <section id="experience" class="fade-in">
             <h2>Job Experience</h2>
-            <div class="job" id="job1">
-                <h3>Computer Science Consulting and Curriculum Development Intern at XPerience Coding LLC</h3>
-                <p><strong>Vernon Hills, Illinois</strong> | June-2024-July 2024</p>
+            <div class="job">
+                <h3>Computer Science Consulting Intern</h3>
+                <p><strong>XPerience Coding LLC</strong> | June 2024 - July 2024</p>
                 <ul>
-                    <li>Developed comprehensive STEM camp curricula for approximately 50 students, covering topics such as Web Development, Programming,and Robotics, fostering hands-on learning and engagement.</li>
-                    <li>Initiated outreach to local companies to offer pro bono tech services, resulting in a successful virtual tour project for Lakeview Fitness, featuring their daycare, pool, and gym, which boosted user interest by approximately 60%.
-</li>
-                    <li>
-                        Coordinated and managed various tech projects, including creating detailed project proposals and technical plans to ensure successful execution and delivery.
-                    </li>
-                </ul>
-                <h3>Pool Attendant/Cashier for Turtle Creek Waterpark(Family Aquatic Center)</h3>
-                <p><strong>Vernon Hills, Illinois</strong> | May 2023-August 2023, May 2024-August 2024</p>
-                <ul>
-                    <li>Supervised pool slide activities for up to 400 guests per hour, ensuring safety and delivering clear instructions to enhance the visitor experience.
-</li>
-                    <li>Provided exceptional customer service to up to 500 patrons daily, addressing inquiries and resolving concerns both on the pool deck and over the phone.
-</li>
-                    <li>Collaborated with a team of 6 colleagues on the pool deck to maintain a welcoming and efficient environment.
-</li>
-                    <li>Managed cash transactions totaling up to 300 dollars per shift, contributing to a smooth operation of pool services.</li>
+                    <li>Developed comprehensive STEM camp curricula for approximately 50 students.</li>
+                    <li>Initiated outreach to local companies, resulting in a successful virtual tour project.</li>
+                    <li>Coordinated and managed tech projects with detailed proposals.</li>
                 </ul>
             </div>
-            <!-- Add more job experiences as needed -->
+            <!-- Add more experiences as cards -->
         </section>
 
-        <section id="extracurricular">
-            <h2>Extracurricular Activities</h2>
-            <ul>
-                <h3>Founder and Chief Technological Officer at classCalendar</h3>
-                                <p><strong>Vernon Hills, Illinois</strong> | November 2023-Present</p>
-                                <ul>
-                                    <li>Spearheaded the development of ClassCalendar, a task and assignment management app, utilizing Flutter and Dart to create a cross-platform application with a seamless user experience, including an avatar and coin system.</li>
-                                    <li>Led both front-end and back-end development, integrating task management functionalities and avatar customization, ensuring smooth performance across all devices.</li>
-                                    <li>Collaborated with a team of 2-3 developers to guide technical direction and resolve challenges related to app performance and scalability.
-</li>
-                                    <li>Coordinated with the business team to align technical features, including the coin system, with user needs, optimizing the app’s overall impact and engagement.
-</li>
-                                </ul>
-                <h3>President of Education and Board of Directors for XPerience Coding LLC</h3>
-                                <p><strong>Vernon Hills, Illinois</strong> | November 2023-Present</p>
-                                <ul>
-                                    <li>Previously was Co-Head of Curriculum and Board of Directors. November 2023-June 2024
-                                    </li>
-                                    <li>Co-led the creation and implementation of coding curriculum for K-5 students, focusing on Scratch and Python, resulting in engaging and educational coding camps for approximately 50 students.
-</li>
-                                    <li>Played a key role in developing age-appropriate lesson plans and hands-on activities that introduced fundamental programming concepts, fostering early interest in STEM.
-</li>
-                                    <li>Taught coding camps, adapting instruction to various skill levels and ensuring each student gained practical coding experience and confidence in their abilities.
-</li>
-                                    <li>Collaborated with fellow board members to continuously improve the curriculum, integrating feedback and new ideas to enhance the learning experience for future sessions.
-</li>
-                                </ul>
-                <h3>Co-Coach for Disease Detectives</h3>
-                                                <p><strong>Vernon Hills, Illinois</strong> | October 2021-Present</p>
-                                                <ul>
-                                                    <li>Developed and delivered a comprehensive curriculum on epidemiology for middle school students (grades 6-8) participating in the Disease Detectives event, covering topics such as disease mechanisms, outbreak investigation, and public health strategies.                                                    </li>
-                                                    <li>Introduced students to key figures in epidemiology, historical case studies, and modern techniques for controlling and preventing disease outbreaks.
-</li>
-                                                    <li>Guided the team through rigorous practice sessions and problem-solving exercises, ensuring they were well-prepared for competition.
-</li>
-                                                    <li>Successfully coached the team to achieve 1st place in the regional competition and 2nd place in the state competition, demonstrating the effectiveness of the curriculum and training methods.
-                                                    </li>
-                                                </ul>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Technical Skills:</strong> Web Development, Software Development, Debugging and Testing</li>
-                <li><strong>Programming Languages:</strong> Java, Python, HTML, CSS, Javascript</li>
-                <li><strong>Tools and Technologies:</strong> Visual Studio Code, Github</li>
-                <li><strong>Soft Skills:</strong> Critical Thinking, Learning and Development, Problem Solving</li>
-            </ul>
-        </section>
-
-        <section id="projects">
+        <section id="projects" class="fade-in">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>classCalendar</h3>
-                <p>Developed ClassCalendar, a task and assignment management app with an avatar and coin system, using Flutter and Dart. Led both front-end and back-end development to ensure seamless integration of features. Collaborated with a development team and business stakeholders to enhance app performance and user engagement</p>
-                <p>Will be on the App Store and Play store soon and website will be updated when out.</p>
+            <div class="project-card">
+                <h3>ClassCalendar</h3>
+                <p>A task and assignment management app with an avatar and coin system built using Flutter and Dart.</p>
             </div>
-            <h3><a href="https://github.com/okotwal/Algebr.ai" target="_blank">Algebr.ai</a></h3>
-                <p>Developed Algebr.ai in Django backend. Algebra.ai is an AI-powered platform that generates customized Algebra I and II practice tests, tailoring difficulty and content to each user’s performance and preferences for effective learning.</p>
+            <div class="project-card">
+                <h3><a href="https://github.com/okotwal/Algebr.ai" target="_blank">Algebr.ai</a></h3>
+                <p>AI-powered platform for custom Algebra I & II practice tests.</p>
             </div>
-            <h4>Click <a href="Algebrai.html" target="_blank">here</a></h4>
-            <!-- Add more projects as needed -->
         </section>
-        <h4>New Project <a href="project2.html" target="_blank">here</a></h4>
 
+        <button id="scrollTop" class="hidden">↑ Top</button>
     </main>
 
     <footer>
