@@ -1,10 +1,10 @@
-Om Kotwal - Aspiring Computer Scientist
+# 👋 Om Kotwal - Aspiring Computer Scientist  
 
-🚀 About Me
+# 🚀 About Me
 
 Hi there! I'm Om Kotwal, an aspiring Computer Science student set to begin my journey at UIUC (University of Illinois Urbana-Champaign) in Fall 2025. I have a deep passion for technology, problem-solving, and building impactful software solutions. As the Co-Founder & CTO of classCalendar LLC, I have hands-on experience in leading the development of a task and assignment management app, utilizing FlutterFlow, Dart, Firebase, and Avataars API.
 
-🎯 What I'm Working On
+# 🎯 What I'm Working On
 
 classCalendar LLC: A task and assignment management app, soon to be released on the App Store.
 
@@ -14,7 +14,7 @@ Building open-source projects to enhance my portfolio and contribute to the dev 
 
 Exploring the intersection of computer science and business to maximize my impact in the tech industry.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Languages: Dart, JavaScript, Python
 
@@ -26,7 +26,7 @@ Database: PostgreSQL (learning), Firestore
 
 Tools & Platforms: Git, GitHub, Firebase, REST APIs
 
-🌱 Learning Goals
+# 🌱 Learning Goals
 
 Master React and integrate it with backend services
 
@@ -36,7 +36,7 @@ Gain experience with SQL databases (PostgreSQL)
 
 Enhance my problem-solving skills through competitive programming
 
-📫 Connect with Me
+# 📫 Connect with Me
 
 GitHub: github.com/OmKotwal
 
